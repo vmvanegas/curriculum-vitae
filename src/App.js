@@ -83,31 +83,24 @@ function App() {
                 <div className="cv-skills">
                   <div className="skill-range">
                     <label htmlFor="html-css">HTML / CSS</label>
-                    <input type="range" readOnly value="70" name="html-css" id="html-css"/>
                   </div>
                   <div className="skill-range">
                     <label htmlFor="javascript-typescript">JAVASCRIPT / TYPESCRIPT</label>
-                    <input type="range" readOnly value="50" name="javascript-typescript" id="javascript-typescript"/>
                   </div>
                   <div className="skill-range">
                     <label htmlFor="react">REACT</label>
-                    <input type="range" readOnly value="40" name="react" id="react"/>
                   </div>
                   <div className="skill-range">
                     <label htmlFor="angular">ANGULAR</label>
-                    <input type="range" readOnly value="40" name="angular" id="angular"/>
                   </div>
                   <div className="skill-range">
                     <label htmlFor="github">GITHUB</label>
-                    <input type="range" readOnly value="40" name="github" id="github"/>
                   </div>
                   <div className="skill-range">
                     <label htmlFor="api-services-conection">CONECCION SERVICIOS API</label>
-                    <input type="range" readOnly value="50" name="api-services-conection" id="api-services-conection"/>
                   </div>
                   <div className="skill-range">
                     <label htmlFor="responsive-design">DISEÑO RESPONSIVE</label>
-                    <input type="range" readOnly value="70" name="responsive-design" id="responsive-design"/>
                   </div>
                 </div>
               </div>
