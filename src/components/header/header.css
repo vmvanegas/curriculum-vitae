@@ -1,0 +1,22 @@
+.cv-header{
+    width: 100%;
+    background-color: var(--text-color);
+}
+
+.cv-header-title {
+    color: var(--main-bg-color);
+    width: 100%;
+    padding: 2rem 0;
+    margin: auto;
+    text-align: center;
+}
+
+.cv-header-title h1 {
+    font-size: 1.5rem;
+    letter-spacing: .3rem;
+}
+.cv-header-title h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--main-bg-color);
+}
