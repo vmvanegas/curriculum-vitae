@@ -10,12 +10,12 @@ function Header(props) {
 
   return (
     <CardActionArea>
-    <header className="cv-header">
-        <div className="cv-header-title">
-        <h1>{name}</h1>
-        <h2>{degree}</h2>
-        </div>
-    </header>
+      <header className="cv-header">
+          <div className="cv-header-title">
+          <h1>{name}</h1>
+          <h2>{degree}</h2>
+          </div>
+      </header>
     </CardActionArea>
   );
 }

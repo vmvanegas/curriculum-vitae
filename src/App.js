@@ -32,6 +32,24 @@ function App() {
                 <div className="cv-experience">
                   <article className="cv-experience-text">
                     <div className="company-name">
+                      <h4><b>Quadi |</b> Bogotá</h4>
+                    </div>
+                    <div className="date">
+                      <small>May 2021 - Actualmente</small>
+                    </div>
+                    <div className="activities">
+                      <p>
+                        Maquetación de Interfaces de Usuario <br />
+                        Desarrollo e implementación de interfaces (HTML, CSS, Javascript) <br />
+                        Adaptación de páginas web a diferentes dispositivos(responsive) <br />
+                        Administracion de contenido con CMS 
+                        </p>
+                    </div>
+                  </article>
+                </div>
+                <div className="cv-experience">
+                  <article className="cv-experience-text">
+                    <div className="company-name">
                       <h4><b>Credyty |</b> Bogotá</h4>
                     </div>
                     <div className="date">
@@ -39,16 +57,16 @@ function App() {
                     </div>
                     <div className="activities">
                       <p>
-                        Consumo de servicios rest api
-                        Maquetación de Interfaces de Usuario
+                        Consumo de servicios rest api <br />
+                        Maquetación de Interfaces de Usuario <br />
                         Desarrollo e implementación de interfaces (HTML, CSS, Javascript,
-                        Angular)
+                        Angular) <br />
                         Adaptación de páginas web a diferentes dispositivos(responsive)
                         </p>
                     </div>
                   </article>
                 </div>
-                <div className="cv-experience">
+                {/* <div className="cv-experience">
                   <article className="cv-experience-text">
                     <div className="company-name">
                       <h4><b>Elvecino.com sas |</b> Bogotá</h4>
@@ -68,7 +86,7 @@ function App() {
                       </p>
                     </div>
                   </article>
-                </div>
+                </div> */}
               </div>
               {/* EXPERIENCE END*/}
               {/* SKILLS */}
@@ -122,13 +140,11 @@ function App() {
                     Soy una persona disciplinada,
                     responsable muy comprometido
                     con mi trabajo y con muchos
-                    deseos de aprender, tengo 6
-                    meses de practica en la empresa
-                    elVecino.com como desarrollador
-                    junior y 7 meses de experiencia en
-                    la empresa Credyty desarrollando
-                    interfaces con HTML CSS y
-                    JavaScript, conocimientos en
+                    deseos de aprender, tengo 2 años
+                    de experiencia como desarrollador 
+                    junior frontend desarrollando
+                    interfaces con HTML, CSS,
+                    JavaScript, Angular conocimientos en
                     HTML, CSS, JavaScript, React,
                     Angular, Typescript, Diseño
                     responsive, Maquetación web y
@@ -168,11 +184,29 @@ function App() {
                     <small>SENA</small>
                   </div>
                   <div className="cv-small-text">
-                    <small>2020 - actualmente cursando</small>
+                    <small>2020 - 2022</small>
                   </div>
                 </div>
               </div>
               {/* EDUCATION END*/}
+              {/* LANGUAGES */}
+              <div className="cv-education-section">
+                <div className="cv-title-text">
+                  <i className="far fa-bookmark"></i>
+                  <h2>Idiomas</h2>
+                </div>
+                <div className="cv-education-text">
+                  <div className="cv-small-text">
+                    <small>Español - Lengua nativa</small>
+                  </div>
+                </div>
+                <div className="cv-education-text">
+                  <div className="cv-small-text">
+                    <small>Ingles - Nivel basico (A2)</small>
+                  </div>
+                </div>
+              </div>
+              {/* LANGUAGES END*/}
             </aside>
             {/* RIGHT SECTION END*/}
         </main>
