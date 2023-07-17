@@ -2,7 +2,7 @@ import React from 'react';
 /* MATERIAL UI COMPONENTS */
 import CardActionArea from '@material-ui/core/CardActionArea';
 /* OWN STYLES */
-import './header.css';
+import './Header.css';
 
 function Header(props) {
 

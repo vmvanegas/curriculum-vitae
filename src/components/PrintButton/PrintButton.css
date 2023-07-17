@@ -1,0 +1,7 @@
+.print-button {
+    position: fixed !important;
+    display: inline-block;
+    top: 1rem;
+    left: 1rem;
+    z-index: var(--z-index-2);
+}

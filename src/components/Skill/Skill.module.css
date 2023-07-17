@@ -1,0 +1,44 @@
+.skill-range {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+
+.skill-range label {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.skill-range input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 2px;
+    margin: .5rem 0;
+    background: #6d6d6d;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .skill-range input:hover {
+    opacity: 1;
+  }
+  
+  .skill-range input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 8px;
+    height: 8px;
+    background: var(--text-color);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .skill-range input::-moz-range-thumb {
+    width: 7px;
+    height: 7px;
+    background: var(--text-color);
+    border-radius: 50%;
+    cursor: pointer;
+  }

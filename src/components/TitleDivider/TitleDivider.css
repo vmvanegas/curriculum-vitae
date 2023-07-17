@@ -1,0 +1,21 @@
+/*CV-TITLE-DIVIDER*/
+.cv-title-divider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.cv-title-divider hr {
+    width: 100%;
+    border: 1px solid var(--text-color);
+    position: absolute;
+}
+
+.cv-title-divider .cv-title-text{
+    background-color: var(--main-bg-color);
+    z-index: 1;
+    padding: 0 .5rem;
+    margin-left: 4rem;
+}
+/*CV-TITLE-DIVIDEREND*/

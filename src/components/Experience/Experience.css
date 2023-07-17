@@ -1,0 +1,34 @@
+
+/* CV EXPERIENCE */
+.cv-experience {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.cv-experience-text{
+    max-width: 387px;
+    margin: 3rem auto;
+    color: var(--text-color);
+}
+
+.company-name h4{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.date {
+    margin-bottom: .5rem;
+}
+
+.activities p {
+    font-size: .8rem;
+}
+
+/* CV EXPERIENCE END*/
+
+@media print{
+    .hide-print, .hide-print *{
+      display: none;
+      background-color: #222222;
+    }
+  }
