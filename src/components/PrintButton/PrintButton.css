@@ -4,4 +4,6 @@
     top: 1rem;
     left: 1rem;
     z-index: var(--z-index-2);
+    background-color: var(--text-color);
+    color: var(--main-bg-color);
 }

@@ -39,6 +39,12 @@ body {
   background-color: var(--main-bg-color);
 }
 
+button {
+  border: none;
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
+
 
 /* 
 .hide-print, .hide-print *{

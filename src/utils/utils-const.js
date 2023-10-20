@@ -52,7 +52,7 @@ export const curriculumVitaeData = {
         },
         {
             id: Math.random(),
-            name: "CONECCION SERVICIOS API",
+            name: "CONECCIÓN SERVICIOS API",
         },
         {
             id: Math.random(),

@@ -2,7 +2,6 @@ import { useRef } from 'react'
 import React from 'react';
 import ReactToPrint from 'react-to-print';
 import CurriculumVitae from '../../pages/curriculum-vitae/CurriculumVitae';
-import Button from '@material-ui/core/Button';
 import './PrintButton.css'
 
 
@@ -21,10 +20,10 @@ const PrintButton = () => {
         <div>
             <ReactToPrint
                 trigger={() => {
-                    return <Button className='print-button'
+                    return <button className='print-button'
                         color='primary'
                         variant='contained'
-                    >Imprimir</Button>
+                    >Imprimir</button>
                 }}
                 content={() => componentRef.current}
             />

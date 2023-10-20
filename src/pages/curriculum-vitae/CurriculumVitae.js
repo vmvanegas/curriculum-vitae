@@ -11,7 +11,7 @@ import Skill from '../../components/Skill/Skill';
 const CurriculumVitae = forwardRef(() => {
 
     const experienceData = curriculumVitaeData.experiences.map((enterprise, i) => {
-        return <Experience className={`${i > 1 ? 'hide-print': ''}`} key={enterprise.id} data={enterprise} />
+        return <Experience key={enterprise.id} data={enterprise} />
     })
 
     const skillData = curriculumVitaeData.skills.map((skill) => {
