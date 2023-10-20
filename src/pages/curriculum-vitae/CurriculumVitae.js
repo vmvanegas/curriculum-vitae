@@ -23,7 +23,7 @@ const CurriculumVitae = forwardRef(() => {
             {/* HEADER */}
             <Header
                 name="VICTOR MANUEL VANEGAS RODRIGUEZ"
-                degree="DESARROLLADOR JUNIOR FRONTEND"
+                degree="DESARROLLADOR FRONTEND"
             />
             {/* HEADER END*/}
             <main className="cv-body">
