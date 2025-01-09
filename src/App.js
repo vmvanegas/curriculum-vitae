@@ -1,6 +1,6 @@
 import React from 'react';
 /* COMPONENTS */
-import Switch from './components/Switch/Switch'
+import Switch from './components/switch/switch'
 import PrintButton from './components/PrintButton/PrintButton';
 import CurriculumVitae from './pages/curriculum-vitae/CurriculumVitae';
 /* MATERIAL UI COMPONENTS */

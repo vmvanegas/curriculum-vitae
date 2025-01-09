@@ -1,7 +1,7 @@
 import React from 'react';
 /* MATERIAL UI COMPONENTS */
 /* OWN STYLES */
-import './Header.css';
+import './header.css';
 
 function Header(props) {
 
